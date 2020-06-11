@@ -1,0 +1,54 @@
+table{
+    border: lightgray solid 2px;
+    border-collapse: collapse;
+}
+    table thead, tfoot{
+        color: darkblue;
+        background-color: lightblue;
+    }
+    table th, td{
+        padding: 3px 5px;
+        border: lightgray solid 1px;
+    }
+form{
+    background-color: rgba(255, 255, 255, .5);
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+    padding: 10px;
+}
+    form label{
+        color: darkblue;
+    }
+    form select{
+        color: gray;
+        background-color: rgba(255, 255, 255, .5);
+
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+        form select option{
+            padding: 5px;
+            
+        }
+    form textarea{
+        color: gray;
+        background-color: rgba(255, 255, 255, .5);
+
+        padding: 5px;
+        margin: 5px 0;
+    }
+    form input[type='submit']{
+        border: white 2px;
+        border-style: none solid;
+        
+        background-color: rgba(64,64,128,.7);
+
+        font-size: 18px;
+        width: 30%;
+        padding: 5px 10px;
+    }

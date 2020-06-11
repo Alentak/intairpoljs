@@ -1,0 +1,12 @@
+header{ display: none; }
+nav{ display: none; }
+fieldset{ display: none; }
+footer{ display: none; }
+input[type='submit'], input[type='button'], button{ display: none; }
+h2, h3, td, th, label, input[type='submit'], input[type='button'], button{ color: black; }
+h3{
+    text-decoration: underline;
+}
+img{
+    height: 100px;
+}

@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Candara';
+    outline: none;
+    text-decoration: none;
+    text-shadow: .1em .1em .1em lightgray;
+}
+html{
+    background: url('../img/bg.jpg') no-repeat center fixed;
+}
+body{
+    background-color: rgba(73,116,130, 0.6);
+    font-size: 25px;
+}
+img{ 
+    border-radius: 3px;
+    box-shadow: .2em .2em .3em lightgray;
+}
+#content a{
+    text-decoration: underline;
+    color: darkblue;
+}
+#content a:hover{
+    text-decoration: none;
+    color: blue;
+}
+fieldset{ padding: 10px; }
+input, select{ padding: 5px; }
+legend{ 
+    font-weight: bold;
+    color: darkblue;
+    font-size: 25px;
+    text-align: center; 
+}
+textarea { resize: none; }
+button, input[type='submit'], input[type='button']{
+    border: white 1px;
+    border-style: none solid;
+
+    background: none;
+    background-color: rgba(64, 64, 128, .6);
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    text-shadow: .1em .1em .3em black;
+}
+input[type='submit'], input[type='button']{
+    margin-top: 5px;
+    display: block;
+}
+button:hover, input[type='submit']:hover, input[type='button']:hover{ background-color: rgba(48, 48, 96, .6); }
+button:active, input[type='submit']:active, input[type='button']:active{ background-color: rgba(32, 32, 64, .6); }
+
+/********************Header********************/
+
+header{
+    padding: 5px 0;
+    background-color: rgba(64,64,128,.7);
+}
+    header h1{
+        text-align: center;
+        color: white;
+        text-shadow: white 0.1em 0.1em 1em;
+    }
+
+/********************Navigation********************/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgba(64,64,128,.7);
+}
+    nav a{
+        width: 100%;
+    }
+    nav button{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+/********************Content********************/
+
+#content{
+    background: rgba(255, 255, 255, 0.8);
+    
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 auto;
+    padding: 30px 100px 50px 100px;
+    width: 65%;
+}
+    #content h2{
+        color: darkblue;
+        padding: 10px 0;
+    }
+    /* #content fieldset form label{
+        display: block;
+    } */
+    #content fieldset form input[type='text']{
+        text-align: center;
+        display: block;
+        width: 50%;
+    }
+    #content h3{
+        color: darkblue;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        border-bottom: black solid 1px;
+    }
+    #content article{
+        background-color: rgba(255, 255, 255, .5);
+        margin-bottom: 10px;
+        padding: 10px;
+        box-shadow: .2em .2em .3em lightgray;
+    }
+    #content article p{
+        line-height: 30px;
+    }
+
+/********************ScrollBar********************/  
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    background: rgba(64,64,128,.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(64,64,128,.7); 
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(64,64,128,.9);
+}
+
+/********************Footer********************/
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border-top: white solid 1px;
+
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/********************Classes********************/
+
+.gras{ font-weight: bold; }
+
+/********************Responsive********************/
+
+@media (max-width: 800px){
+    #content{
+        padding: 30px 75px;
+    }
+    #content p{
+        clear: both;
+        font-size: 17px;
+        line-height: 35px;
+    }
+    nav{
+        display: block;
+    }
+    nav button{
+        border: none;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 600px){
+    #content{
+        padding: 30px 50px;
+    }
+    #content p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    nav{
+        display: block;
+    }
+    nav button{
+        border: none;
+    }
+}
+
+@media (max-width: 500px){
+    #content{
+        padding: 30px 25px;
+    }
+    #content p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    nav{
+        display: block;
+    }
+    nav button{
+        border: none;
+    }
+}

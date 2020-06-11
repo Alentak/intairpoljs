@@ -1,0 +1,16 @@
+article{
+    height: 300px;
+}
+img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#complet{
+    display: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/scriptPageMaitre.js"></script>
+    
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../css/loginRegister.css" media="screen">
+    <title>1ntΛ°rPol - Connexion</title>
+</head>
+<body>
+    <script>header("../index.html", "");</script>
+    <section id="content">
+        <h2>Connexion</h2>
+        <form action="espaceclient.html" method="POST">
+            <label for="identifiant">Identifiant</label>
+            <input type="text" name="identifiant" id="identifiant" placeholder="Identifiant" required/>
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required/>
+            <input type="submit" value="Connexion">
+        </form>
+        <h4><a href="register.html">Pas encore inscrit ?</a></h4>
+    </section>
+    <script>footer();</script>
+</body>
+</html>

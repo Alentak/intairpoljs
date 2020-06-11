@@ -1,0 +1,11 @@
+img{
+    height: 200px;
+}
+#imgCarte{
+    float: left;
+    margin-right: 10px;
+}
+#imgDirecteur{
+    float: left;
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+#titreAccueil{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#content>section{
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgba(255, 255, 255, .5);
+}
+.images{
+    background: none;
+    display: flex;
+    align-items: flex-start;
+}
+.images img{
+    margin-right: 5px;
+    width: 32%;
+}

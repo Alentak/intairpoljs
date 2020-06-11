@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="../js/scriptPageMaitre.js"></script>
+	<script src="../js/scriptReservation.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../css/reservation.css" media="screen">
+
+	<title>1ntΛ°rPol - Réservation</title>
+</head>
+<body>
+	<script>header("../index.html", "");</script>
+	<section id="content">
+		<section id="sectionCriteres">
+			<fieldset>
+				<legend>Rechercher</legend>
+				<!--pour enlever le refresh de la page apres le submit tout en gardant les messages d'erreurs-->
+				<form method="GET">
+					<label for="depart">Départ :</label>
+					<select name="depart" id="depart" required>
+						<option value="" hidden>Choisir la ville de départ</option>
+						<script>listeVilleDepart();</script>
+					</select>
+					<label for="arrivee">Arrivée :</label>
+					<select name="arrivee" id="arrivee" required>
+						<option value="" hidden>Choisir la ville d'arrivée</option>
+						<script>listeVilleArrivee();</script>
+					</select>
+					<label for="date">Date :</label>
+					<input id="date" type="date" name="date" min="2018-01-01" max="2099-12-31" required/>
+					<label for="personnes">Nombre de personnes :</label>
+					<input id="personnes" type="number" name="personnes" value="1" min="1"  step="1" required/>
+					<input id="btnRechercher" type="submit" value="Rechercher"/>
+				</form>
+			</fieldset>
+		</section>
+		<h2>Les vols</h2>
+		<section id="sectionVols">
+			<script>afficherTousLesVols();</script>
+		</section>
+	</section>
+	<script>footer();</script>
+</body>
+</html>

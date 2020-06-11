@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="../js/scriptPageMaitre.js"></script>
+	<script src="../js/scriptForum.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../css/forum.css" media="screen">
+
+	<title>1ntΛ°rPol - Forum</title>
+</head>
+<body>
+	<script>header("../index.html", "");</script>
+	<section id="content">
+		<section id="sectionSujets">
+			<fieldset>
+				<legend>Rechercher un sujet</legend>
+				<form method="GET">
+					<input type="text" name="recherche" id="recherche" placeholder="Rechercher un sujet" required/>
+					<input type="submit" id="submit" value="Rechercher">
+				</form>
+			</fieldset>
+			<h2>Les sujets</h2>
+			<article>
+				<h3>Problème : Pourquoi ceci ?</h3>
+				<p>Aperçu du sujet :</p>
+				<p><span class="gras">lepetitcorentin</span> répond : Bonjour, j'ai un problème : pourquoi ceci ? ...</p>
+			</article>
+			<article>
+				<h3>Problème [Résolu] : Pourquoi cela ?</h3>
+				<p>Aperçu du sujet :</p>
+				<p><span class="gras">michel05</span> répond : Bonjour, j'ai un problème : pourquoi cela ? ...</p>
+			</article>
+		</section>
+		<section id="sectionReponses">
+			<h2>Les réponses</h2>
+			<h3>Problème [Résolu] : Pourquoi cela ?</h3>
+			<article>
+				<p>Réponse de <span class="gras">michel05</span> :</p>
+				<p>Bonjour, j'ai un problème : pourquoi cela ? ...</p>
+			</article>
+			<article>
+				<p>Réponse de <span class="gras">lepetitcorentin</span> :</p>
+				<p>Ton problème est causé par ceci, tu as juste à faire cela pour le régler.</p>
+			</article>
+			<article>
+				<p>Réponse de <span class="gras">michel05</span> :</p>
+				<p>Très bien merci beaucoup !</p>
+			</article>
+			<a href="forum.html">Retour</a>
+		</section>
+	</section>
+	<script>footer();</script>
+</body>
+</html>

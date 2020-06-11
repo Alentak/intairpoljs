@@ -1,0 +1,116 @@
+[
+    {
+        "Nom":"New York", 
+        "Description":"New York, officiellement nommée City of New York, connue également sous les noms et abréviations de New York City ou NYC, est la plus grande ville des États-Unis en nombre d'habitants et l'une des plus importantes du continent américain. Elle se situe dans le Nord-Est des États-Unis, sur la côte atlantique, à l'extrémité sud-est de l'État de New York. La ville de New York se compose de cinq arrondissements appelés boroughs : Manhattan, Brooklyn, Queens, le Bronx et Staten Island. Ses habitants s'appellent les New-Yorkais (en anglais : New Yorkers).", 
+        "Image":"ny.jpg",
+        "Prix":300
+    },
+    {
+        "Nom":"Paris", 
+        "Description":"Paris est la ville la plus peuplée et la capitale de la France. Elle se situe au cœur d'un vaste bassin sédimentaire aux sols fertiles et au climat tempéré, le bassin parisien, sur une boucle de la Seine, entre les confluents de celle-ci avec la Marne et l'Oise. Paris est également le chef-lieu de la région Île-de-France et le centre de la métropole du Grand Paris, créée en 2016. Elle est divisée en arrondissements, comme les villes de Lyon et de Marseille, au nombre de vingt. ", 
+        "Image":"paris.jpg",
+        "Prix":250
+    },
+    {
+        "Nom":"Beuzeville", 
+        "Description":"Beuzeville est une commune française située dans le département de l'Eure en région Normandie. Beuzeville est le chef-lieu du canton portant le même nom.", 
+        "Image":"beuzeville.jpg",
+        "Prix":1
+    },
+    {
+        "Nom":"Pékin", 
+        "Description":"Pékin2 (en chinois : 北京 ; pinyin : Běijīng, litt. « capitale du nord »), ou Beijing, est la capitale de la République populaire de Chine. Située dans le Nord-Est du pays, la municipalité de Pékin, d'une superficie de 16 800 km2, est entourée par la province du Hebei ainsi que la municipalité de Tianjin. Pékin est considérée comme le centre politique et culturel de la Chine, tandis que Hong Kong et Shanghai dominent au niveau économique.", 
+        "Image":"pekin.jpg",
+        "Prix":200
+    },
+    {
+        "Nom":"Dubaï", 
+        "Description":"Dubaï ou Doubaï (prononcé en français : [dy.ba.i, du.ba.i]) est un émirat des Émirats arabes unis dont la capitale est la ville de Dubaï. Les habitants de l'émirat s'appellent les Dubaïotes ou Doubaïotes. Fondés au xviiie siècle, l'émirat et le bourg prennent de l'importance en participant à la création des États de la Trêve (Trucial States en anglais) en 1853 puis des Émirats arabes unis actuels en 1971 dont l'émir de Dubaï assure la vice-présidence. Le bourg modeste et isolé du monde qui vit essentiellement de la pêche aux perles à la fin du xixe siècle, Dubaï vit une période difficile pendant l'entre-deux-guerres, avant d'entrer de plein fouet dans la modernité dans la deuxième partie du xxe siècle.", 
+        "Image":"dubai.jpg",
+        "Prix":300
+    },
+    {
+        "Nom":"Tokyo", 
+        "Description":"Tokyo [to.kjo] (東京, Tōkyō, litt. « Capitale de l'est »), anciennement Edo (江戸), officiellement la préfecture métropolitaine de Tokyo (東京都, Tōkyō-to), est de facto la capitale actuelle du Japon. Elle est la plus peuplée des préfectures du Japon, avec plus de 13 831 421 habitants intra-muros en 2018 et 42 794 714 dans l'agglomération, et forme l'aire urbaine la plus peuplée au monde. Située sur la côte est de l'île principale de l'archipel japonais, Honshū, Tokyo est l'une des quarante-sept préfectures du Japon. Principal centre politique de l'archipel depuis le xviie siècle, la ville accueille la plupart des institutions du pays : la résidence principale de l'empereur du Japon, du Premier ministre, le siège de la Diète (le parlement japonais), du Cabinet, les ministères qui le constituent ainsi que toutes les ambassades étrangères.", 
+        "Image":"tokyo.jpg",
+        "Prix":350
+    },
+    {
+        "Nom":"Los Angeles", 
+        "Description":"Los Angeles [los‿ãʒɛl] ou [los‿ɑ̃(d)ʒəlɛs](en anglais : [lɑs ˈænd͡ʒələs] ; en espagnol : Los Ángeles [los ˈaŋxeles]) est la deuxième ville plus peuplée des États-Unis après New York. Elle est située dans le Sud de l'État de Californie, sur la côte du Pacifique. La ville est le siège du comté portant le même nom. Selon une estimation, la population de la commune est de 3 976 322 habitants en 2016, alors qu'elle n'était que de 11 500 en 1887. Le comté rassemble 10 179 716 habitants (en juillet 2004) alors que l'aire urbaine de Los Angeles compte environ 18,5 millions d’habitants, ce qui en fait la deuxième agglomération des États-Unis après celle de New York. Mais la commune de Los Angeles est relativement restreinte face à son agglomération, même si elle est plus grande que New York ou Chicago.", 
+        "Image":"la.jpg",
+        "Prix":350
+    },
+    {
+        "Nom":"Chicago", 
+        "Description":"Chicago /ʃi.ka.ɡo/ (en anglais /ʃɪˈkɑ.ɡoʊ/ ou localement /ʃɪˈkɔː.ɡoʊ/) est la troisième ville des États-Unis par sa population et est située dans le Nord-Est de l'État de l'Illinois. C'est la plus grande ville de la région du Midwest, dont elle forme le principal centre économique et culturel. Chicago se trouve sur la rive sud-ouest du lac Michigan, un des cinq Grands Lacs d'Amérique du Nord. Les rivières Chicago et Calumet traversent la ville. Comptoir commercial fondé à la fin du xviiie siècle par Jean Baptiste Pointe du Sable, un mulâtre d'origine française, Chicago devient une municipalité en 1833 et acquiert officiellement le statut de ville en 1837. Elle est le siège du comté de Cook. Chicago est aussi le siège d'une paroisse catholique francophone, signe de son histoire liée à la France.", 
+        "Image":"chicago.jpg",
+        "Prix":325
+    },
+    {
+        "Nom":"Londres", 
+        "Description":"Londres [lɔ̃dʁ] (en anglais : London [ˈlʌndən]), située dans le Sud-Est de la Grande-Bretagne, est la capitale du Royaume-Uni et la plus grande ville de l'Angleterre. Longtemps capitale de l'Empire britannique, elle est désormais le siège du Commonwealth of Nations. Fondée il y a presque 2 000 ans par les Romains sous le nom de Londinium, Londres est au xixe siècle la ville la plus peuplée du monde. Bien que largement dépassée dans ce domaine par de nombreuses mégapoles, elle reste une métropole de tout premier plan, en raison de son rayonnement et de sa puissance économique, dû notamment à sa place de premier centre financier mondial.", 
+        "Image":"londres.jpg",
+        "Prix":100
+    },
+    {
+        "Nom":"Hong kong", 
+        "Description":"Hong Kong (chinois : 香港 ; pinyin : Xiānggǎng ; Wade : Hsiang-kang ; cantonais Jyutping : Hoenggong ; cantonais Yale : Hēunggóng ; litt. « port aux parfums » ou « port parfumé »), officiellement la région administrative spéciale de Hong Kong de la république populaire de Chine, est la plus grande et la plus peuplée des deux régions administratives spéciales (RAS) de la république populaire de Chine, l'autre étant Macao. Elle compte environ sept millions d'habitants que l'on appelle Hongkongais (en anglais : Hongkongers) dont l'espérance de vie, de 84,2 ans, est la plus longue au monde en 2017. Hong Kong est située dans le Sud-Est de la Chine, sur la rive orientale de la Rivière des Perles. Cette région administrative, qui occupe une péninsule sur la côte sud ainsi que quelques îles, est baignée par la mer de Chine méridionale.", 
+        "Image":"hongkong.webp",
+        "Prix":325
+    },
+    {
+        "Nom":"Amsterdam", 
+        "Description":"Amsterdam est la capitale des Pays-Bas, bien que le gouvernement ainsi que la plupart des institutions nationales siègent à La Haye. Sur la base des chiffres de l'année 2017, la commune d'Amsterdam compte plus de 850 000 habitants, appelés Amstellodamois, ce qui en fait la commune néerlandaise la plus peuplée. Elle est située cœur de la région d'Amsterdam, regroupant environ 1 350 000 habitants. L'aire urbaine, qui rassemble plus de 2 400 000 résidents fait elle-même partie d'une conurbation appelée Randstad qui compte 7 100 000 habitants. La ville est la plus grande de Hollande-Septentrionale, mais n'est cependant pas le chef-lieu de la province, ce dernier étant Haarlem, situé à 19 kilomètres à l'ouest d'Amsterdam.", 
+        "Image":"amsterdam.webp",
+        "Prix":125
+    },
+    {
+        "Nom":"Francfort", 
+        "Description":"Francfort-sur-le-Main (en allemand : Frankfurt am Main, /ˈfʁaŋkfʊɐ̯t ʔam ˈmaɪn/) est une ville d’Allemagne, généralement appelée simplement Francfort malgré le risque de confusion avec la ville de Francfort-sur-l'Oder. Située sur la rivière du Main, la ville est avec près de 800 000 habitants (les Francfortois), la cinquième ville d'Allemagne par sa population et la plus grande du Land de Hesse. Son aire urbaine appelée Rhin-Main – ou Région métropolitaine de Francfort-sur-le-Main – compte plus de 5,5 millions d'habitants (dont un tiers ne possède pas la nationalité allemande), ce qui en fait la dixième aire urbaine d'Europe, la sixième de l'Union européenne et la seconde d'Allemagne après celle de Cologne-Düsseldorf appelée Rhin-Rhur.", 
+        "Image":"francfort.jpg",
+        "Prix":75
+    },
+    {
+        "Nom":"Istanbul", 
+        "Description":"Istanbul ou Istamboula [istɑ̃bul]b (en turc : İstanbulc [isˈtanbuɫ]), appelé officiellement ainsi à partir de 1930 et historiquement Constantinople, est la plus grande ville et métropole de Turquie et la préfecture de la province homonyme, dont elle représente environ 50 % de la superficie mais plus de 97 % de la population. Quatre zones historiques de la ville sont inscrites sur la liste du patrimoine mondial de l'Unesco depuis 1985. Istanbul est le principal centre économique (pôle financier, commercial et industriel) de la Turquie mais aussi la capitale culturelle du pays. Istanbul est la plus grande agglomération du pays. La population de l'ensemble de l'agglomération stambouliote est évaluée à 15 millions d'habitants en 2014 ce qui en fait l'une des plus grandes aires urbaines du monde. Forte d'un héritage culturel et historique important, la ville cosmopolite est un haut lieu du tourisme.", 
+        "Image":"istanbul.jpg",
+        "Prix":175
+    },
+    {
+        "Nom":"Delhi", 
+        "Description":"Delhi (hindi : दिल्ली (Dillī), ourdou : دہلی ou دلّی, pendjabi : ਦਿੱਲੀ) est une ville du nord de l'Inde. Elle abrite en son sein New Delhi, la capitale du pays. Delhi est située sur les bords de la rivière Yamuna, et est depuis longtemps une ville importante, placée sur les routes de commerce du nord-ouest aux plaines du Gange. Elle a été la capitale historique de plusieurs empires indiens. Delhi est notamment rattachée à l'Empire moghol en 1526 après la victoire du prince Babur face au dernier sultan de Delhi. Les Moghols établissent leur capitale dans la partie de la ville maintenant connue comme le Vieux Delhi (Old Delhi). Elle reste capitale jusqu'en 1707 et la défaite des Moghols face aux Marathas.", 
+        "Image":"delhi.jpg",
+        "Prix":225
+    },
+    {
+        "Nom":"Séoul", 
+        "Description":"Séoul /se.ul/ (en coréen : 서울 ; romanisation révisée : Seoul /sʌ.ul/) ; officiellement Ville spéciale de Séoul (hangeul : 서울특별시, hanja : 서울特別市) est la capitale et la plus grande ville de la Corée du Sud. Située sur le fleuve Han, au nord-ouest du pays, elle compte une population d'environ onze millions d'habitants intra-muros et 25 620 000 dans son aire urbaine (qui inclut notamment Incheon), ce qui fait d'elle la troisième mégapole la plus peuplée au monde après Tokyo et Mexico, et juste devant New York. En outre, la ville est le lieu de résidence de près de la moitié de la population sud-coréenne. La zone démilitarisée (DMZ) est, quant à elle, à environ 45 kilomètres du centre-ville.", 
+        "Image":"seoul.jpg",
+        "Prix":325
+    },
+    {
+        "Nom":"Singapour", 
+        "Description":"Singapour, en forme longue la république de Singapour (en anglais : Singapore et Republic of Singapore, en chinois : 新加坡 (Xīnjiāpō) et 新加坡共和国 (Xīnjiāpō Gònghéguó), en malais : Singapura et Republik Singapura, en tamoul : சிங்கப்பூர் (Ciṅkappūr) et சிங்கப்பூர் குடியரசு) (Ciŋkappūr Kudiyarasu), est une cité-État d’Asie du Sud-Est. Sa superficie est de 719,1 km². Elle comprend 63 îles, dont la principale est Pulau Ujong (584,8 km²). Cette île est très densément urbanisée, mais la végétation luxuriante – même en plein centre-ville – a valu à Singapour le surnom de « ville jardin ». Cette abondance de verdure découle en partie d'un climat équatorial, uniformément chaud et orageux tout au long de l'année. Sa densité de population est la plus élevée d'Asie et la deuxième sur le plan mondial", 
+        "Image":"singapour.jpg",
+        "Prix":375
+    },
+    {
+        "Nom":"Bangkok", 
+        "Description":"Bangkok (thaï : บางกอก), dont le nom complet est « Krung Thep mahanakhon amon rattanakosin mahintara ayuthaya mahadilok phop noppharat ratchathani burirom udomratchaniwet mahasathan amon piman awatan sathit sakkathattiya witsanukam prast. », ce qui signifie «La ville des anges, grande ville, résidence du Bouddha d’émeraude, ville imprenable du Dieu Indra, grande capitale du monde ciselée de neuf pierres précieuses, ville heureuse, riche dans l’énorme Palais royal pareil à la demeure céleste, règne du dieu réincarné, ville offerte à Indra et construite par Vishnukarn ». est la capitale de la Thaïlande. C’est à la fois une ville et une province.", 
+        "Image":"bangkok.jpg",
+        "Prix":350
+    },
+    {
+        "Nom":"Madrid", 
+        "Description":"Madrid /ma.dʁid/ (en espagnol : /maˈðɾið/) est la capitale et la plus grande ville d'Espagne. Située en plein cœur du royaume, elle est également la capitale et la ville la plus peuplée de la Communauté de Madrid. En tant que capitale d'État, elle abrite la plupart des institutions politiques du pays, dont la résidence royale, le siège du gouvernement et le Parlement. Comptant une population d'environ 3,2 millions d'habitants intra-muros sur une superficie totale de 604,3 km², au sein d'une aire urbaine d'environ 6,5 millions d'habitants en 2014 en comptant sa population intra-muros, Madrid est la troisième ville de l'Union européenne, derrière Londres et Berlin.", 
+        "Image":"madrid.jpg",
+        "Prix":100
+    },
+    {
+        "Nom":"Toronto", 
+        "Description":"Toronto (/tɔ.ʁɔ̃.to/ ; en anglais : /təˈɹɒntoʊ̯/ voire localement /təˈɹɒnə/ ou /ˈtɹɒnoʊ̯/) est la plus peuplée des villes du Canada et la capitale de la province de l'Ontario. Elle se situe dans le sud-est du Canada, sur la rive nord-ouest du lac Ontario. Selon le recensement de 2016, Toronto compte plus de 2,7 millions d'habitants, faisant d'elle la quatrième ville la plus peuplée en Amérique du Nord. Son aire métropolitaine compte 5,9 millions d'habitants, et la mégalopole du Golden Horseshoe, dont elle est le cœur, plus de 8,7 millions d'habitants en 2011, soit le quart de la population canadienne. Ville mondiale, Toronto est le centre bancaire, financier, commercial et artistique du Canada anglophone, et l'une des villes les plus multiculturelles et cosmopolites au monde.", 
+        "Image":"toronto.jpg",
+        "Prix":275
+    }
+]

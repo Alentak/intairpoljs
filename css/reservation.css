@@ -1,0 +1,10 @@
+fieldset form input[type='number']{
+    width: 50px;
+}
+#sectionVols{
+    height: 600px;
+    overflow-y: scroll;
+}
+#sectionVols input[type='button']{
+    text-align: center;
+}

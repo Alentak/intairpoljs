@@ -1,0 +1,23 @@
+[
+{"IdAeroport":"1","NomAeroport":"Paris-Orly","VilleAeroport":"Paris","PaysAeroport":"France","TelAeroport":"+33","MailAeroport":"orly@aeroport.com","Horaires":"5h-00h"},
+{"IdAeroport":"2","NomAeroport":"Charles-De-Gaulle","VilleAeroport":"Paris","PaysAeroport":"France","TelAeroport":"+33","MailAeroport":"cdg@aeroport.com","Horaires":"5h-00h"},
+{"IdAeroport":"3","NomAeroport":"JFK International Airport","VilleAeroport":"New York","PaysAeroport":"États-Unis","TelAeroport":"+1","MailAeroport":"jfkinternational@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"4","NomAeroport":"1ntAirPaul","VilleAeroport":"Beuzeville","PaysAeroport":"France","TelAeroport":"+33","MailAeroport":"contact@intairpaul.com","Horaires":"5h-00h"},
+{"IdAeroport":"5","NomAeroport":"Atlanta H.-Jackson","VilleAeroport":"Atlanta","PaysAeroport":"États-Unis","TelAeroport":"+1","MailAeroport":"Atlanta H.-Jackson@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"6","NomAeroport":"Pékin-Capitale","VilleAeroport":"Pékin","PaysAeroport":"Chine","TelAeroport":"+86","MailAeroport":"Chaoyang-Shunyi@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"7","NomAeroport":"Dubaï","VilleAeroport":"Dubai","PaysAeroport":"Émirats arabes unis","TelAeroport":"+971","MailAeroport":"Garhoud@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"8","NomAeroport":"Tokyo-Haneda","VilleAeroport":"Tokyo","PaysAeroport":"Japon","TelAeroport":"+81","MailAeroport":"Tokyo-Haneda@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"9","NomAeroport":"Los Angeles","VilleAeroport":"Los Angeles","PaysAeroport":"États-Unis","TelAeroport":"+1","MailAeroport":"Los Angeles@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"10","NomAeroport":"Chicago O'Hare","VilleAeroport":"Chicago","PaysAeroport":"États-Unis","TelAeroport":"+1","MailAeroport":"Chicago O'Hare@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"11","NomAeroport":"Londres-Heathrow","VilleAeroport":"Londres","PaysAeroport":"Royaume-Uni","TelAeroport":"+44","MailAeroport":"Londres-Heathrow@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"12","NomAeroport":"Hong Kong","VilleAeroport":"Hong Kong","PaysAeroport":"Chine","TelAeroport":"+86","MailAeroport":"Hong Kong@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"13","NomAeroport":"Amsterdam-Schiphol","VilleAeroport":"Amsterdam","PaysAeroport":"Pays-Bas","TelAeroport":"+31","MailAeroport":"Amsterdam-Schiphol@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"14","NomAeroport":"Francfort","VilleAeroport":"Francfort","PaysAeroport":"Allemagne","TelAeroport":"+49","MailAeroport":"Francfort@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"15","NomAeroport":"Istanbul-Atatürk","VilleAeroport":"Istanbul","PaysAeroport":"Turquie","TelAeroport":"+90","MailAeroport":"Istanbul-Atatürk@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"16","NomAeroport":"Delhi-Indira Gandhi","VilleAeroport":"Delhi","PaysAeroport":"Inde","TelAeroport":"+91","MailAeroport":"Delhi-Indira Gandhi@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"17","NomAeroport":"Séoul-Incheon","VilleAeroport":"Séoul","PaysAeroport":"Corée du Sud","TelAeroport":"+82","MailAeroport":"Séoul-Incheon@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"18","NomAeroport":"Singapour-Changi","VilleAeroport":"Singapour","PaysAeroport":"Singapour","TelAeroport":"+65","MailAeroport":"Singapour-Changi@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"19","NomAeroport":"Bangkok-Suvarnabhumi","VilleAeroport":"Bangkok","PaysAeroport":"Thaïlande","TelAeroport":"+66","MailAeroport":"Bangkok-Suvarnabhumi@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"20","NomAeroport":"Madrid-Barajas","VilleAeroport":"Madrid","PaysAeroport":"Espagne","TelAeroport":"+34","MailAeroport":"Madrid-Barajas@airport.com","Horaires":"5h-00h"},
+{"IdAeroport":"21","NomAeroport":"Toronto-L. B. Pearson","VilleAeroport":"Toronto","PaysAeroport":"Canada","TelAeroport":"+1","MailAeroport":"Toronto-L. B. Pearson@airport.com","Horaires":"5h-00h"}
+]

@@ -1,0 +1,16 @@
+#profil{
+    display: flex;
+}
+#informations{
+    width: 30%;
+    padding-right: 10px;
+    border-right: gray solid 1px;
+}
+#gestion{
+    padding-left: 10px;
+}
+form{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, .5);
+}

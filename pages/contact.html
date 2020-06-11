@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="../js/scriptPageMaitre.js"></script>
+	<script src="../js/scriptContact.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css" media="screen">
+
+	<title>1ntΛ°rPol - Contact</title>
+</head>
+<body>
+	<script>header("../index.html", "");</script>
+	<section id="content">
+		<h2>Nous contacter</h2>
+		<h3>Le site</h3>
+		<p>Disponibilité : 24h/24 7j/7</p>
+		<p>Mail : support@intairpol.com</p>
+		<p>N° Tél : 01 23 45 67 89</p>
+		<h3>L'aéroport</h3>
+		<p>Disponibilités : </p>
+		<table>
+			<thead>
+				<tr>
+					<th>Jour</th>
+					<th>Horraires</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Lundi</td>
+					<td>8h-12h, 13h-00h</td>
+				</tr>
+				<tr>
+					<td>Mardi</td>
+					<td>8h-12h, 13h-00h</td>
+				</tr>
+				<tr>
+					<td>Mercredi</td>
+					<td>8h-12h, 13h-00h</td>
+				</tr>
+				<tr>
+					<td>Jeudi</td>
+					<td>8h-12h, 13h-00h</td>
+				</tr>
+				<tr>
+					<td>Vendredi</td>
+					<td>8h-12h, 13h-00h</td>
+				</tr>
+				<tr>
+					<td>Samedi</td>
+					<td>7h-12h, 13h-01h</td>
+				</tr>
+				<tr>
+					<td>Dimanche</td>
+					<td>7h-12h, 13h-01h</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="2">Septembre 2019 - Juin 2020</td>
+				</tr>
+			</tfoot>
+		</table>
+		<p>Mail : aeroport@intairpol.com</p>
+		<p>N° Tél : 09 87 65 43 21</p>
+
+		<form method="POST">
+			<label class="gras" for="selDest">Qui contacter ?</label>
+			<select id="selDest" required>
+				<option value="" hidden>Choisir un destinataire</option>
+				<option value="support@intairpol.com">Le site</option>
+				<option value="aeroport@intairpol.com">L'aéroport</option>
+			</select>
+			<textarea name="corpsMail" id="taMail" cols="30" rows="10" placeholder="Quel est votre problème ?" required></textarea>
+			<input id="btnEnvoyer" type="submit" value="Envoyer">
+		</form>
+	</section>
+	<script>footer();</script>
+</body>
+</html>

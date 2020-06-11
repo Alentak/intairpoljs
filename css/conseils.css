@@ -1,0 +1,16 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    form input[type='number']{
+        text-align: center;
+    }
+article{
+    height: 300px;
+}
+    img{
+        width: 300px;
+        float: left;
+        margin-right: 10px;
+    }

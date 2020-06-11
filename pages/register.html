@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/scriptPageMaitre.js"></script>
+    
+	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../css/loginRegister.css" media="screen">
+    <title>1ntΛ°rPol - Inscription</title>
+</head>
+<body>
+    <script>header("../index.html", "");</script>
+    <section id="content">
+        <h2>Inscription</h2>
+        <form action="login.html" method="POST">
+            <label for="identifiant">Identifiant</label>
+            <input type="text" name="id" id="identifiant" placeholder="Identifiant" required/>
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" minlength="8" required/>
+            <label for="mail">Courriel</label>
+            <input type="email" name="mail" id="mail" placeholder="Adresse mail" required/>
+            <input id="btnInscription" type="submit" value="S'inscrire">
+        </form>
+        <h4><a href="login.html">Déjà inscrit ?</a></h4>
+    </section>
+    <script>footer();</script>
+</body>
+</html>
